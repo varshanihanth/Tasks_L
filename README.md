@@ -2,7 +2,9 @@
 
 coding tasks: 
 
-1.We have a class representing binary tree nodes: 
+## Fisrt Task :
+
+We have a class representing binary tree nodes: 
         class BTN { 
             int val; 
             BTN left; 
@@ -10,11 +12,15 @@ coding tasks:
         } 
     please implement method to compare 2 such trees (returns: true if fully equal, false - otherwise) 
 
-2.We have a class : class Element { int num; String name; int age; } 
+## Second Task:
+
+We have a class : class Element { int num; String name; int age; } 
     please implement method taking Collection<Element> as an argument and returning Collection<Element> where all elements are unique by "num" and age>20. In case of ambiguity, put in target collection any of input elements. 
 
  
-3.We do have 2 tables in a relational database: 
+## Third Task:
+
+We do have 2 tables in a relational database: 
         ∙ Clients (client_id(PK), client_name) 
         ∙ Orders (order_id(PK), client_id, order_sum, order_date) 
     Please write the following SQL queries: 
@@ -26,4 +32,4 @@ coding tasks:
 
 ## Note: Important
 
-Before starting second task/application kindly "restore NuGet packages"
+Before starting the second task/application kindly "restore NuGet packages"
