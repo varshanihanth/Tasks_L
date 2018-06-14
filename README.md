@@ -2,7 +2,7 @@
 
 coding tasks: 
 
-## Fisrt Task :
+## Fisrt Task:
 
 We have a class representing binary tree nodes: 
         class BTN { 
