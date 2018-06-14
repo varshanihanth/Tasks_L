@@ -2,7 +2,7 @@ SELECT * from Clients c
 INNER JOIN Orders o on c.client_id= o.client_id
 WHERE o.order_sum > 50
 
-SELECT  c.client_id, c.client_name, SUM(o.order_sum ) as order_sum from Clients c
+SELECT  c.client_id, c.client_name, SUM(o.order_sum) as order_sum from Clients c
 INNER JOIN Orders o on c.client_id= o.client_id
 where o.order_sum > 50
 GROUP BY c.client_id ,c.client_name
