@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/2.Task/2.Task/bin/Debug
+/2.Task/2.Task/obj/Debug
+/2.Task/packages
+/2.Task/.vs/2.Task/v15/Server/sqlite3
+/1.Task/1.Task/.vs/1.Task/v15/Server/sqlite3
+/1.Task/1.Task/bin/Debug
+/1.Task/1.Task/obj/Debug
+/FirstTask/.vs/FirstTask/v15
+/FirstTask/FirstTask/bin/Debug
+/FirstTask/FirstTask/obj/Debug
+/SecondTask/.vs/SecondTask/v15
+/SecondTask/packages/Newtonsoft.Json.11.0.2
+/SecondTask/SecondTask/bin/Debug
+/SecondTask/SecondTask/obj/Debug

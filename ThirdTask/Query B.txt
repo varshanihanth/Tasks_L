@@ -1,0 +1,10 @@
+SELECT  c.client_id, c.client_name, o.order_sum from Clients c
+INNER JOIN (SELECT client_id, SUM(Orders.order_sum) as order_sum from Orders GROUP BY client_id  ) o on c.client_id= o.client_id
+WHERE o.order_sum > 100
+
+
+
+SELECT  c.client_id,c.client_name , SUM(o.order_sum ) as order_sum from Clients c
+INNER JOIN Orders o on c.client_id= o.client_id
+GROUP BY c.client_id ,c.client_name
+HAVING SUM(o.order_sum) > 100
